@@ -337,7 +337,7 @@ def test_main_BlackWins():
     assert compcard('Black: 2H 4S 4C 2D 4H White: 2S 8S AS QS 3S')=='Black wins'
 
 def test_main_WhiteWins():
-    assert compcard('Black: 2D 4C 5S 8H JD White: 1C 4S 5S 9C AH')=='White wins'
+    assert compcard('Black: 2D 4C 5S 8H JD White: 2C 4S 5H 9C AH')=='White wins'
 
 def test_main_Tie():
     assert compcard('Black: 2H 3D 6S JC KD White: 2D 3H 6C JS KC') == 'Tie'
