@@ -63,7 +63,7 @@ def judge_type(player):
 
 
     if ((player[1] == player[4]) &( player[1] == player[7]) & (player[1] == player[10]) &( player[1] == player[13])): ##判断是否为相同花色
-        if shunzi!=1:
+        if straight!=1:
             type = 6  ##同花
         else:
             type = 9  ##同花顺
