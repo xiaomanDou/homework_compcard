@@ -53,12 +53,12 @@ def judge_type(player):
         type=7
         return type                             #葫芦
 
-    shunzi = 1                                  #判断是否为顺子
+    straight = 1                                  #判断是否为顺子
     for index, val in enumerate(list1[:4]):
         j = list1[index + 1]
         if j - val != 1:
-            shunzi = 0
-    if shunzi==1:
+            straight = 0
+    if straight==1:
         type=5 #是顺子还有可能是同花顺，在这不返回
 
 
